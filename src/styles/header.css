@@ -1,0 +1,67 @@
+
+.backgroundImage{
+    background-image: url(../assets/img/Deep\ Ocean\ Background.jpg);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Set up proportionate scaling */
+    width: 100vw;
+    height: auto;
+      
+    /* Set up positioning */
+    position: absolute;
+}
+
+/* position the navbar container inside the image */
+.container{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    padding-left: 100px;
+}
+
+/* the navbar */
+.topnav{
+    overflow: hidden;
+    float: right;
+    padding-left: 700px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.topnav a:hover {
+    color: rgb(47, 238, 252);
+}
+
+.title{
+    text-align: center;
+    margin-top: 200px;
+    padding-left: 30px;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    word-spacing: 5px; 
+    color: #fff;
+}
+
+h2 {
+    font-family: Dancing Script, sans-serif;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 5px;
+}

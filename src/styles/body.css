@@ -1,0 +1,42 @@
+.parent{
+    padding-top: 20px;
+}
+
+.div{
+    text-align: center;
+    background-color: rgb(180, 242, 245);
+    padding-top: 150px;
+}
+
+.text{
+    padding-left: 45px;
+    margin-top: 50px;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(17, 166, 177);
+}
+
+.me{
+    margin-top: 10vw;
+}
+
+.h1{
+    font-family: Dancing Script, sans-serif;
+    font-size: 20px;
+    letter-spacing: 8px;
+    padding-left: 30px;
+    margin-top: 120px;
+    color: rgb(17, 166, 177);
+}
+
+.etext{
+    margin-bottom: 3vw;
+}
+
+.paragraphstyle{
+    color: rgb(17, 166, 177);
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 200;
+}
