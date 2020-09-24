@@ -1,34 +1,22 @@
-
-.backgroundImage{
-    background-image: url(../assets/img/Deep\ Ocean\ Background.jpg);
-    min-height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* Set up proportionate scaling */
-    width: 100vw;
-    height: auto;
-      
-    /* Set up positioning */
-    position: absolute;
+body{
+    background-color: rgb(4, 4, 31);
 }
 
-/* position the navbar container inside the image */
 .container{
-    position: absolute;
-    margin: 20px;
-    width: auto;
-    padding-left: 100px;
+    position: relative;
 }
 
 /* the navbar */
 .topnav{
     overflow: hidden;
-    float: right;
-    padding-left: 700px;
     font-family: brandon-grotesque, sans-serif;
     font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    width: 100vw;
 }
 
 .topnav a {
@@ -41,13 +29,18 @@
 }
 
 .topnav a:hover {
-    color: rgb(47, 238, 252);
+    color: rgb(255, 239, 91);
 }
 
+.main-container{
+    flex-direction: row;
+}
 .title{
-    text-align: center;
-    margin-top: 200px;
-    padding-left: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -61,7 +54,6 @@ h2 {
     letter-spacing: 8px;
 }
 
-p {
-    font-size: 18px;
-    letter-spacing: 5px;
+.lottie{
+    float: right;
 }
