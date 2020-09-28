@@ -1,55 +1,32 @@
 body{
     background-color: rgb(4, 4, 31);
 }
-
-.container{
-    position: relative;
-}
-
-/* the navbar */
-.topnav{
-    overflow: hidden;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 15px;
-    width: 100vw;
-}
-
-.topnav a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-}
-
-.topnav a:hover {
-    color: #F4B78D;
-}
-
 .main-container{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     font-style: normal;
-    
     color: #fff;
+    padding-left: 5em;
+    margin-top: 5em;
 }
 .title{
     font-weight: 300;
     letter-spacing: -1px;
     line-height: 110%;
     font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3em;
 }
-
 
 .lottie{
     float: right;
+    padding-left: 15em;
+}
+
+.text-two{
+    font-family: "Biotif-Regular", Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.7;
 }

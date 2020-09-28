@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+}
+
+/* the navbar */
+.topnav{
+    overflow: hidden;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    width: 100vw;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.topnav a:hover {
+    color: #65b7ee;
+}
+
+.words{
+    font-family: "Biotif-Regular", Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 15px;
+    letter-spacing: 2px;
+}
+
+.social-media{
+    padding-right: 5em;
+}
