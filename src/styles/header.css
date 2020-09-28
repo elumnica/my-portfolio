@@ -29,30 +29,26 @@ body{
 }
 
 .topnav a:hover {
-    color: rgb(255, 239, 91);
+    color: #F4B78D;
 }
 
 .main-container{
-    flex-direction: row;
-}
-.title{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: brandon-grotesque, sans-serif;
     font-style: normal;
-    font-weight: 300;
-    word-spacing: 5px; 
+    
     color: #fff;
 }
-
-h2 {
-    font-family: Dancing Script, sans-serif;
-    font-size: 50px;
-    letter-spacing: 8px;
+.title{
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 110%;
+    font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 .lottie{
     float: right;

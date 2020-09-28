@@ -31,7 +31,7 @@ function Header() {
                 <div className='container'>
                     <div className='topnav'>
                         <div>
-                            <a class='active' href='#'>About</a>
+                            <a class='active' href=''>About</a>
                             <a href='#'>Work</a>
                             <a href='#'>Notes</a>
                         </div>
@@ -43,17 +43,24 @@ function Header() {
                         />
                         </div>
                         <div className="social-media">
-                            <a href='#'>LinkedIn</a>
-                            <a href='#'>Github</a>
+                            <a href='https://www.linkedin.com/in/elvislumnica/'>
+                            <img alt='LinkedIn Icon' src='https://www.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png'
+                            width='50' height='50'></img>
+                            </a>
+                            <a href='https://github.com/elumnica'>
+                            <img src='https://cdn3.iconfinder.com/data/icons/flat-and-simple-part-3/128/github-512.png' alt='Github icon' 
+                            width='50' height='50'></img>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div className="main-container">
-                    <div className='title'>
-                        <h2 className='textOne'>I'm Elvis.</h2>
-                        <p className='textTwo'>a Software Engineer.</p>
+                    <div>
+                        <h1 className='title'>Hi, I'm Elvis.<br></br>A Software Developer.</h1>
+                        <p className='textTwo'>I love to bring user friendly and asthetic websites to life.</p>
                     </div>
-                    <div className='lottie'>
+                </div>
+                <div className='lottie'>
                         <Lottie 
 	                        options={defaultOptions}
                             height={400}
@@ -61,7 +68,7 @@ function Header() {
                         />
                     </div>
                 </div>
-            </div>
+           
     );
 }
 
