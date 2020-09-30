@@ -1,0 +1,26 @@
+.footer{
+    color: #ffffff;
+    display: block;
+}
+
+.f-title{
+    font-size: 50px;
+    line-height: 100%;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: .5rem;
+}
+
+.f-text{
+    font-size: 20px;
+    line-height: 160%;
+    margin-top: 2em;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    font-family: "Biotif-Regular", Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

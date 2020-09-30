@@ -1,0 +1,11 @@
+.card{
+    background-color: #082036;
+    /* #65b7ee */
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    padding-left: 5em;
+    padding: 3em 3em 4em;
+}

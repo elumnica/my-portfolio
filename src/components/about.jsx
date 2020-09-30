@@ -1,14 +1,15 @@
 import React from 'react';
-import Header from './header.jsx';
+import Lottie from 'react-lottie';
+import Navbar from './navbar.jsx';
+import "../styles/about.css";
 
 function About() {
+
     return (
-        <div className='main'>
-            <div className='header'>
-                <Header />
-            </div>
-        </div>
-    );
+    <div className='parent'>
+        <Navbar />
+    </div>   
+    )
 }
 
 export default About;

@@ -1,6 +1,7 @@
 body{
     background-color: rgb(4, 4, 31);
 }
+
 .main-container{
     float: left;
     display: flex;

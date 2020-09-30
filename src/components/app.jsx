@@ -1,12 +1,12 @@
 import React from "react";
-import About from "./about.jsx";
+import Site from "./site.jsx";
 
 
 
 function App() {
     return(
         <div>
-            <About />
+            <Site />
         </div>
     );
 }

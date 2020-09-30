@@ -3,6 +3,7 @@ import Lottie from 'react-lottie';
 import animationData from '../lotties/software-dev.json';
 import Navbar from './navbar.jsx'
 import ProjectCard from './projectCard.jsx'
+import Footer from './footer.jsx'
 import "../styles/header.css";
 
 function Header() {
@@ -16,7 +17,7 @@ function Header() {
       };
 
     return (
-        <div className='backgroundImage'>
+        <div className='parent'>
                 <Navbar />
                 <section className="main-container">
                     <div>
@@ -31,7 +32,7 @@ function Header() {
                         />
                 </div>
                 </section>
-                <ProjectCard />
+                {/* <ProjectCard /> */}
                 <Footer />
         </div>
            
