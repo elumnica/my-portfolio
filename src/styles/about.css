@@ -1,10 +1,95 @@
-.elvis{
-    text-align: center;
-    display: block;
+.split{
+    float: left;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    padding-top: 10em;
+}
+
+.elvis{
+    
     margin: auto;
     width: 100%;
-    padding-top: 5em;
+    padding-left: 5em;
     
+}
+
+.text{
+    color: #fff;
+    margin: 2em 0 0;
+    float: right;   
+    padding-right: 3em;
+    
+}
+
+.title{
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+    font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.p-tag{
+    font-family: "Biotif-Regular", Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.gant-title{
+    color: #ffffff;
+    max-width: 1120px;
+    margin: 0 auto;
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+    font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 20em;
+}
+
+.reading-title{
+    color: #ffffff;
+    max-width: 1120px;
+    margin: 0 auto;
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+    font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 20em;
+}
+
+.row-books{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5em;
+}
+
+.book-w{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b-title{
+    font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    margin-top: 3em;
+    font-size: 18px;
+}
+
+
+.author{
+    font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin-top: .75em;
+}
+
+.footer{
+    padding-top: 5em;
+    padding-bottom: 5em;  
 }

@@ -17,7 +17,7 @@ function Header() {
       };
 
     return (
-        <div className='parent'>
+        <div>
                 <Navbar />
                 <section className="main-container">
                     <div>
