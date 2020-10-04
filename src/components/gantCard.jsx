@@ -2,15 +2,17 @@ import React from 'react';
 import "../styles/gantCard.css";
 
 
-function GantCard() {
+function GantCard(props) {
     return (
         <div className='parent'>
             <div className='gant-bubble'>
+            <div className='gant-row'>
                 <div className='gant-company'>
-                    <span className='company'>SUNY Buffalo State</span>
-                    <span className='position'>Engineer Student</span>
+                    <span className='company'>{props.company}</span>
+                    <span className='position'>{props.position}</span>
                 </div>
-                <div className='tenure'>14-19</div>
+                <div className='tenure'>{props.tenure}</div>
+            </div>
             </div>
         </div>   
     )

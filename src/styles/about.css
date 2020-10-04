@@ -48,6 +48,34 @@
     font-weight: 500;
     padding-top: 20em;
 }
+.gant-chart{
+    width: 100%;
+    max-width: 100%;
+    padding: 4em 0;
+    display: grid;
+    row-gap: 1em;
+}
+
+.card-one{
+    grid-column: 1/span 3;
+    grid-row: 4/4;
+    padding-left: 5em;
+}
+
+.card-two{
+    grid-column: 4/span 4;
+    grid-row: 3/3;
+}
+
+.card-three{
+    grid-column: 6/span 3;
+    grid-row: 2/2;
+}
+
+.card-four{
+    grid-column: 9/span 4;
+    grid-row: 1/1;
+}
 
 .reading-title{
     color: #ffffff;
@@ -58,7 +86,7 @@
     line-height: 150%;
     font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
-    padding-top: 20em;
+    padding-top: 5em;
 }
 
 .row-books{

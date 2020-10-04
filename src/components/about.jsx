@@ -25,7 +25,7 @@ function About() {
                         My background helps me to bring a different thought process to the table.
                     </p>
                     <p className='p-tag'>
-                        My days are spent researching and studying, coding, and designing. 
+                        My days are spent researching and studying, coding, and writing. 
                         <br></br>
                         Besides this, you can find me playing acoustic guitar, playing soccer, 
                         <br></br>
@@ -38,7 +38,18 @@ function About() {
                 <h2 className='gant-title'>A brief history</h2>
             </div>
             <div className='gant-chart'>
-                <GantCard />
+                <div className='card-one'>
+                    <GantCard company={'SUNY Buffalo State'} position={'Engineering Student'} tenure={'14-19'}/>
+                </div>
+                <div className='card-two'>
+                    <GantCard company={'Jack Green Assoc.'} position={'Electrical Engineer'} tenure={'19-20'}/>
+                </div>
+                <div className='card-three'>
+                    <GantCard company={'Columbia University'} position={'Web Dev Student'} tenure={'19-20'}/>
+                </div>
+                <div className='card-four'>
+                    <GantCard company={'Freelance'} position={'Dev Consultant'} tenure={'20 ~ curr.'}/>
+                </div>
             </div>
             <div className='books'>
                 <h2 className='reading-title'>Currently Reading</h2>

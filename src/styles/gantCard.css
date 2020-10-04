@@ -7,9 +7,13 @@
     border-radius: 20px;
     padding: 1.5em;
     width: 20vw;
-    height: 5vh;
+    height: 6vh;
     align-items: center;
     justify-content: space-between;
+}
+.gant-row{
+    display: flex;
+    flex-direction: row;
 }
 
 .gant-company{
@@ -29,5 +33,6 @@
 .tenure{
     font-size: 22px;
     font-weight: 700;
-    text-align: right;
+    padding-left: 35px;
+    margin-top: 10px;
 }
