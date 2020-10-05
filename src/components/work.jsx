@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './header.jsx';
 
-function Site() {
+function Work() {
     return (
         <div className='main'>
             <div className='header'>
@@ -11,4 +11,4 @@ function Site() {
     );
 }
 
-export default Site;
+export default Work;

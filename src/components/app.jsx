@@ -1,17 +1,24 @@
-import React from "react";
-import {Router, Switch, Route, Link} from "react-router-dom";
-import Site from "./site.jsx";
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Work from "./work.jsx";
 import About from "./about.jsx";
+import Navbar from "./navbar.jsx"
 
-
-
-function App() {
-    return(
-        <div>
-            <About />
-        </div>
-    );
-}
-
-export default App;
+class App extends Component {
+    render() {
+      return (
+         <BrowserRouter>
+          <div>
+            <Navbar />
+              <Switch>
+               <Route path="/" exact component={Work}/>
+               <Route path="/about" exact component={About}/>
+             </Switch>
+          </div> 
+        </BrowserRouter>
+      );
+    }
+  }
+   
+  export default App;
 

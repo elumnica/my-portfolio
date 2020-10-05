@@ -26,9 +26,9 @@ function About() {
                     </p>
                     <p className='p-tag'>
                         My days are spent researching and studying, coding, and writing. 
-                        <br></br>
+                        
                         Besides this, you can find me playing acoustic guitar, playing soccer, 
-                        <br></br>
+                       
                         working out, or just exploring around New York City!
                     </p>
             </div>
@@ -72,7 +72,7 @@ function About() {
                         <img src='https://images-na.ssl-images-amazon.com/images/I/71VTW2Zld6L.jpg' alt='The Alchemist Cover' width={250} height={350}></img>
                         <div className='book-w'>
                             <span className='b-title'>Clipping our Wings</span>
-                            <span className='author'>Margarite Camaj</span>
+                            <span className='author'>Margaritë Camaj</span>
                         </div>
                     </div>
                 </div>

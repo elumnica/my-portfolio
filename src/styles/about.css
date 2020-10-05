@@ -35,6 +35,7 @@
     font-family: "Biotif-Regular", Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 32px;
+    max-width: 90%;
 }
 
 .gant-title{

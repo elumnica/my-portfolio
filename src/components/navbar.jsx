@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Icon from '../lotties/eye-icon.json';
 import Lottie from 'react-lottie';
+import Work from "./work.jsx";
+import About from "./about.jsx";
 import "../styles/navbar.css";
 
 function Navbar() {
@@ -19,9 +21,9 @@ function Navbar() {
                 <div className='container'>
                     <div className='topnav'>
                         <div className='words'>
-                            <a href='#'>Work</a>
-                            <a href='./about.jsx'>About</a>
-                            <a href='#'>Contact</a>
+                            <ul className='nav-links'><Link to={'/'}>Work</Link></ul>
+                            <ul className='nav-links'><Link to={'/about'}>About</Link></ul>
+                            <ul className='nav-links'><Link to={'/about'}>Contact</Link></ul>
                         </div>
                         <div className= "icon">
                         <Lottie 

@@ -33,7 +33,7 @@ function Header() {
                 </div>
                 </section>
                 {/* <ProjectCard /> */}
-                <Footer />
+                {/* <Footer /> */}
         </div>
            
     );
