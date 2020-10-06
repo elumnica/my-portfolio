@@ -1,11 +1,45 @@
-.card{
+.work-card{
     background-color: #082036;
-    /* #65b7ee */
-    height: 50vh;
+    color: #fff;
+    position: relative;
+    z-index: 1000;
+    max-width: 90%;
+    display: grid;
+    margin: 4em auto 0px;
+    gap: 5em;
+    height: 100vh;
+    border-radius: 25px;
+}
+
+.category{
+    display: block;
+    font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    opacity: .6;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    padding-left: 69.5em;
+    font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.card-header{
     width: 100%;
-    border-radius: 20px;
     position: relative;
     display: block;
-    padding-left: 5em;
+    transition: all .4s ease-in-out;
     padding: 3em 3em 4em;
+}
+
+.card-title{
+    font-family: Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    text-align: right;
+    padding-left: 19.5em;
+    display: block;
+    margin-bottom: 2em;
+    padding-right: 50em;
 }

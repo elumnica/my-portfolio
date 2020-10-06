@@ -32,7 +32,9 @@ function Header() {
                         />
                 </div>
                 </section>
-                {/* <ProjectCard /> */}
+                <div className='cd-one'>
+                    <ProjectCard category={'Mobile'} title={'Ez Bet'}/>
+                </div>
                 {/* <Footer /> */}
         </div>
            
