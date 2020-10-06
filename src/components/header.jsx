@@ -35,7 +35,15 @@ function Header() {
                 <div className='cd-one'>
                     <ProjectCard category={'Mobile'} title={'Ez Bet'}/>
                 </div>
-                {/* <Footer /> */}
+                <div className='cd-two'>
+                    <ProjectCard category={'Web App'} title={'Workout Tracker'}/>
+                </div>
+                <div className='cd-three'>
+                    <ProjectCard category={'Web App'} title={'Heroes & Villains'}/>
+                </div>
+                <div className='footer'>
+                    <Footer />
+                </div>
         </div>
            
     );
