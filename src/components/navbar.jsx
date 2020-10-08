@@ -38,8 +38,8 @@ function Navbar() {
                             width='50' height='50'></img>
                             </a>
                             <a href='https://github.com/elumnica'>
-                            <img src='https://cdn3.iconfinder.com/data/icons/flat-and-simple-part-3/128/github-512.png' alt='Github icon' 
-                            width='50' height='50'></img>
+                            <img className='github' src={require('../img/github.jpg')} alt='Github icon' 
+                            width='35' height='35'></img>
                             </a>
                         </div>
                     </div>

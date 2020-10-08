@@ -37,6 +37,9 @@
     font-size: 18px;
     color: #fff;
 }
+.github{
+    padding-top: 7px;
+}
 
 .icon{
     padding-right: 9em;
@@ -48,5 +51,6 @@
 }
 
 .social-media{
-    padding-right: 5em;
+    padding-right: 5em !important;
+    
 }

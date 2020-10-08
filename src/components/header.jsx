@@ -4,6 +4,7 @@ import animationData from '../lotties/software-dev.json';
 import Navbar from './navbar.jsx'
 import ProjectCard from './projectCard.jsx'
 import Footer from './footer.jsx'
+import Visbot from './vis-bot.jsx';
 import "../styles/header.css";
 
 function Header() {
@@ -43,6 +44,9 @@ function Header() {
                 </div>
                 <div className='footer'>
                     <Footer />
+                </div>
+                <div>
+                    
                 </div>
         </div>
            
