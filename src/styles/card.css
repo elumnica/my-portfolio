@@ -3,7 +3,7 @@
     color: #fff;
     position: relative;
     z-index: 1000;
-    max-width: 90%;
+    max-width: 80%;
     display: grid;
     margin: 4em auto 0px;
     gap: 5em;
@@ -20,7 +20,7 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 700;
-    padding-left: 69.5em;
+    padding-left: 62em;
     font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
@@ -38,7 +38,7 @@
     font-family: Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 45px;
     text-align: right;
-    padding-left: 19.5em;
+    padding-left: 15em;
     display: block;
     margin-bottom: 2em;
     padding-right: 50em;

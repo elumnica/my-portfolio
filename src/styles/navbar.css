@@ -1,6 +1,7 @@
 .container{
     position: fixed;
     background-color: rgb(4, 4, 31);
+    z-index: 9000 !important;
 }
 
 /* the navbar */
@@ -51,6 +52,5 @@
 }
 
 .social-media{
-    padding-right: 5em !important;
-    
+    padding-right: 5em;
 }

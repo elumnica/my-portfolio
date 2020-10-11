@@ -7,7 +7,7 @@ function Footer() {
             <h3 className='f-title'>I take on <br></br>freelancing opportunities!</h3>
             <div className='f-text'>
                 <p>Have an exciting project you might need some help on?</p>
-                <span>Send over an email or message me on LinkedIn, and let's chat!</span>
+                <span>Send over a message on LinkedIn, and let's chat!</span>
             </div>
         </div>
     );

@@ -1,9 +1,10 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import animationData from '../lotties/software-dev.json';
-import Navbar from './navbar.jsx'
-import ProjectCard from './projectCard.jsx'
-import Footer from './footer.jsx'
+import Navbar from './navbar.jsx';
+import ProjectCard from './projectCard.jsx';
+import Footer from './footer.jsx';
+import Button from './button.jsx'
 import Visbot from './vis-bot.jsx';
 import "../styles/header.css";
 
@@ -34,19 +35,19 @@ function Header() {
                 </div>
                 </section>
                 <div className='cd-one'>
-                    <ProjectCard category={'Mobile'} title={'Ez Bet'}/>
+                    <ProjectCard category={'Mobile'} title={'Survivor League'}/>
                 </div>
                 <div className='cd-two'>
                     <ProjectCard category={'Web App'} title={'Workout Tracker'}/>
                 </div>
                 <div className='cd-three'>
-                    <ProjectCard category={'Web App'} title={'Heroes & Villains'}/>
+                    <ProjectCard category={'Web App'} title={'Heroes and Villains'}/>
                 </div>
                 <div className='footer'>
                     <Footer />
                 </div>
-                <div>
-                    
+                <div className='bot-button'>
+                    <Button />
                 </div>
         </div>
            
