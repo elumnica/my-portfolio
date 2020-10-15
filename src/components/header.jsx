@@ -4,8 +4,6 @@ import animationData from '../lotties/software-dev.json';
 import Navbar from './navbar.jsx';
 import ProjectCard from './projectCard.jsx';
 import Footer from './footer.jsx';
-import Button from './button.jsx'
-import Visbot from './vis-bot.jsx';
 import "../styles/header.css";
 
 function Header() {
@@ -35,7 +33,7 @@ function Header() {
                 </div>
                 </section>
                 <div className='cd-one'>
-                    <ProjectCard category={'Mobile'} title={'Survivor League'}/>
+                    <ProjectCard category={'Mobile'} title={'Ez Bet'}/>
                 </div>
                 <div className='cd-two'>
                     <ProjectCard category={'Web App'} title={'Workout Tracker'}/>
@@ -43,14 +41,13 @@ function Header() {
                 <div className='cd-three'>
                     <ProjectCard category={'Web App'} title={'Heroes and Villains'}/>
                 </div>
+                <div className='cd-four'>
+                    <ProjectCard category={'Web App'} title={'JS Drums'}/>
+                </div>
                 <div className='footer'>
                     <Footer />
                 </div>
-                <div className='bot-button'>
-                    <Button />
-                </div>
         </div>
-           
     );
 }
 
