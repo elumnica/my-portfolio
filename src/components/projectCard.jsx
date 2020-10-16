@@ -8,6 +8,7 @@ function CharacterCard(props) {
                 <span className='category'>{props.category}</span>
                 <h2 className='card-title'>{props.title}</h2>
             </a>
+            <div className='sl-icon'>{props.icon}</div>
         </div>
     );
 }

@@ -4,6 +4,7 @@ import Icon from '../lotties/eye-icon.json';
 import Lottie from 'react-lottie';
 import Work from "./work.jsx";
 import About from "./about.jsx";
+import Contact from "./contact";
 import "../styles/navbar.css";
 
 function Navbar() {
@@ -23,7 +24,7 @@ function Navbar() {
                         <div className='words'>
                             <ul className='nav-links'><Link to={'/'}>Work</Link></ul>
                             <ul className='nav-links'><Link to={'/about'}>About</Link></ul>
-                            <ul className='nav-links'><Link to={'/about'}>Contact</Link></ul>
+                            <ul className='nav-links'><Link to={'/contact'}>Contact</Link></ul>
                         </div>
                         <div className= "icon">
                         <Lottie 

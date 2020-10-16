@@ -33,7 +33,7 @@ function Header() {
                 </div>
                 </section>
                 <div className='cd-one'>
-                    <ProjectCard category={'Mobile'} title={'Ez Bet'}/>
+                    <ProjectCard category={'Mobile'} title={'Survivor League'} />
                 </div>
                 <div className='cd-two'>
                     <ProjectCard category={'Web App'} title={'Workout Tracker'}/>

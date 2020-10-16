@@ -1,0 +1,44 @@
+.split{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10em;
+}
+
+.elvis{
+    
+    margin: auto;
+    width: 100%;
+    padding-left: 5em;
+    
+}
+
+.text{
+    color: #fff;
+    margin: 2em 0 0;
+    float: right;   
+    padding-right: 3em;
+    
+}
+
+.title{
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+    font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.p-tag{
+    font-family: "Biotif-Regular", Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 90%;
+}
+
+.footer{
+    padding-top: 5em;
+    padding-bottom: 5em;  
+}
