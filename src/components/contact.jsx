@@ -1,7 +1,7 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import Navbar from './navbar.jsx';
-import Elvis from '../img/elvis.jpg';
+import Me from './me.jsx';
 import Footer from './footer.jsx';
 import GantCard from './gantCard.jsx';
 import "../styles/contact.css";
@@ -13,26 +13,20 @@ function Contact() {
         <Navbar />
         <div className='split'>
             <div className='elvis'>
-            <img src={Elvis}alt='elvis' width={400} height={400} style={{'borderRadius' : '85px'}}/>
+            <Me width={400} height={400} style={{'borderRadius' : '85px'}} />
             </div>
-            <div className='text'>
+            <div className='text-c'>
                     <h1 className='title'>
-                    Hi, I'm Elvis, a freelancing Software Developer looking to land my first dev job!
+                    You can contact me via email or direct message on LinkedIn!
                     </h1>
                     <p className='p-tag'>
-                        I've spent the last 4+ years working on many skills across different areas of engineering - mechanical, electrical, full-stack development + more! 
-                        
-                        My background helps me to bring a different thought process to the table.
+                        Feel free to contact me if you have any questions about my portfolio or projects I have worked on!
                     </p>
                     <p className='p-tag'>
-                        My days are spent researching and studying, coding, and writing. 
-                        
-                        Besides this, you can find me playing acoustic guitar, playing soccer, 
-                       
-                        working out, or just exploring around New York City!
+                        My email is lumnicaelvis@gmail.com and I usually respond within 24 hours. Looking forward to speaking with you!
                     </p>
             </div>
-        </div>
+        </div>  
     </div>  
     )
 }
