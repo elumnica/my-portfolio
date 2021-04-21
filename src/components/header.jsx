@@ -37,7 +37,7 @@ function Header() {
                     <ProjectCard category={'SOLIDWORKS'} title={'Jet Engine'} name={require('../img/jet-assembly-model.JPG')} anchor='../screens/jet-engine.js'/>
                 </div>
                 <div className='cd-two'>
-                    <ProjectCard category={'F.S. Elliott'} title={'Hydraulic Manifold'} name={require('../img/modular-drawing.jpg')} anchor='../screens/manifold.js'/>
+                    <ProjectCard category={'F.S. Elliott'} title={'Hydraulic Manifold'} name={require('../img/hydraulic-model.png')} anchor='../screens/manifold.js'/>
                 </div>
                 <div className='cd-three'>
                     <ProjectCard category={'SOLIDWORKS'} title={'Iron Man Helmet'} name={require('../img/3D-iron-man.JPG')} anchor='../screens/iron-man.js'/>
