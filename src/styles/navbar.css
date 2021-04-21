@@ -28,6 +28,7 @@
 
 .topnav a:hover {
     color: #65b7ee;
+    border-bottom: #65b7ee solid 3px;
 }
 
 .nav-links{
@@ -38,6 +39,41 @@
     font-size: 18px;
     color: #fff;
 }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin: 0;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #082036;
+    max-width: 160px;    
+    border-radius: 15px;
+    letter-spacing: 4px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 5vh;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
 .github{
     padding-top: 7px;
 }

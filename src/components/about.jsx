@@ -1,7 +1,7 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import Navbar from './navbar.jsx';
-import Elvis from '../img/elvis.jpg';
+import Elvis from '../img/elvis.JPG';
 import Footer from './footer.jsx';
 import GantCard from './gantCard.jsx';
 import "../styles/about.css";
@@ -17,7 +17,7 @@ function About() {
             </div>
             <div className='text'>
                     <h1 className='title'>
-                    Hi, I'm Elvis, a freelancing Software Developer looking to land my first dev job!
+                    Hi, I'm Elvis, an Engineer looking to land an amazing job!
                     </h1>
                     <p className='p-tag'>
                         I've spent the last 4+ years working on many skills across different areas of engineering - mechanical, electrical, full-stack development + more! 
@@ -48,7 +48,7 @@ function About() {
                     <GantCard company={'Columbia University'} position={'Web Dev Student'} tenure={'19-20'}/>
                 </div>
                 <div className='card-four'>
-                    <GantCard company={'Freelance'} position={'Dev Consultant'} tenure={'20 ~ curr.'}/>
+                    <GantCard company={'Freelance'} position={'Engineer'} tenure={'20 ~ curr.'}/>
                 </div>
             </div>
             <div className='books'>

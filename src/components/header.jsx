@@ -21,8 +21,9 @@ function Header() {
                 <Navbar />
                 <section className="main-container">
                     <div>
-                        <h1 className='title'>Hi, I'm Elvis.<br></br>A Software Developer.</h1>
-                        <p className='text-two'>I love to bring user friendly and asthetic websites to life. <br></br>Software development is my passion and is something <br></br>I would love to pursue professionally.</p>
+                        <h1 className='title'>Hi, I'm Elvis.<br></br>A Creative Engineer.</h1>
+                        {/* I love to bring user friendly and asthetic websites to life. Software development is my passion and is something I would love to pursue professionally.*/}
+                        <p className='text-two'>I love to solve complex problems with creativity <br></br> and immersive solutions. Engineering is my passion <br></br> and is something I would love to pursue professionally.</p>
                     </div>
                 <div className='lottie'>
                         <Lottie 
@@ -33,16 +34,13 @@ function Header() {
                 </div>
                 </section>
                 <div className='cd-one'>
-                    <ProjectCard category={'Mobile'} title={'Survivor League'} />
+                    <ProjectCard category={'SOLIDWORKS'} title={'Jet Engine'} name={require('../img/jet-assembly-model.JPG')} anchor='../screens/jet-engine.js'/>
                 </div>
                 <div className='cd-two'>
-                    <ProjectCard category={'Web App'} title={'Workout Tracker'}/>
+                    <ProjectCard category={'F.S. Elliott'} title={'Hydraulic Manifold'} name={require('../img/modular-drawing.jpg')} anchor='../screens/manifold.js'/>
                 </div>
                 <div className='cd-three'>
-                    <ProjectCard category={'Web App'} title={'Heroes and Villains'}/>
-                </div>
-                <div className='cd-four'>
-                    <ProjectCard category={'Web App'} title={'JS Drums'}/>
+                    <ProjectCard category={'SOLIDWORKS'} title={'Iron Man Helmet'} name={require('../img/3D-iron-man.JPG')} anchor='../screens/iron-man.js'/>
                 </div>
                 <div className='footer'>
                     <Footer />
