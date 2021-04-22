@@ -1,3 +1,13 @@
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    width: 75%;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    width: 50%;
+  }
+
 body{
     background-color: rgb(4, 4, 31);
 }

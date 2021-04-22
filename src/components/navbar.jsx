@@ -25,9 +25,9 @@ function Navbar() {
                             <div className='dropdown'>
                             <ul className='nav-links'><Link to={'/'}>Work</Link></ul>
                                 <div class="dropdown-content">
-                                    <a href="../screens/jet-engine.js">Jet Engine</a>
-                                    <a href="../screens/manifold.js">Hydraulic Manifold</a>
-                                    <a href="../screens/iron-man.js">Iron Man Helmet</a>
+                                    <a href="/engine">Jet Engine</a>
+                                    <a href="/manifold">Hydraulic Manifold</a>
+                                    <a href="/iron">Iron Man Helmet</a>
                                 </div>
                             </div>
                             <ul className='nav-links'><Link to={'/about'}>About</Link></ul>

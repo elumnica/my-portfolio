@@ -34,13 +34,13 @@ function Header() {
                 </div>
                 </section>
                 <div className='cd-one'>
-                    <ProjectCard category={'SOLIDWORKS'} title={'Jet Engine'} name={require('../img/jet-assembly-model.JPG')} anchor='../screens/jet-engine.js'/>
+                    <ProjectCard category={'SOLIDWORKS'} title={'Jet Engine'} name={require('../img/jet-assembly-model.JPG')} anchor='/engine'/>
                 </div>
                 <div className='cd-two'>
-                    <ProjectCard category={'F.S. Elliott'} title={'Hydraulic Manifold'} name={require('../img/hydraulic-model.png')} anchor='../screens/manifold.js'/>
+                    <ProjectCard category={'F.S. Elliott'} title={'Hydraulic Manifold'} name={require('../img/hydraulic-model.png')} anchor='/manifold'/>
                 </div>
                 <div className='cd-three'>
-                    <ProjectCard category={'SOLIDWORKS'} title={'Iron Man Helmet'} name={require('../img/3D-iron-man.JPG')} anchor='../screens/iron-man.js'/>
+                    <ProjectCard category={'SOLIDWORKS'} title={'Iron Man Helmet'} name={require('../img/3D-iron-man.JPG')} anchor='/iron'/>
                 </div>
                 <div className='footer'>
                     <Footer />

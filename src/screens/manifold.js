@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './navbar.jsx';
-import Footer from './footer.jsx';
-import "../styles/header.css";
+import Navbar from '../components/navbar.jsx';
+import Footer from '../components/footer.jsx';
+import "./manifold.css";
 
-function Header() {
+function Manifold() {
 
     return (
         <div>
@@ -16,4 +16,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Manifold;

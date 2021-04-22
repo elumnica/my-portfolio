@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './navbar.jsx';
-import Footer from './footer.jsx';
+import Navbar from '../components/navbar.jsx';
+import Footer from '../components/footer.jsx';
 import './iron.css';
 
 function Iron() {

@@ -1,3 +1,16 @@
+@media only screen and (min-width : 768px) {
+    width: 75%;
+    height: 75%;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    body{
+        background-color: red;
+    }
+  }
+
+
 .split{
     float: left;
     display: flex;
@@ -5,14 +18,13 @@
     align-items: center;
     flex-direction: row;
     padding-top: 10em;
+    max-width: 100%;
 }
 
 .elvis{
-    
     margin: auto;
     width: 100%;
     padding-left: 5em;
-    
 }
 
 .text{
