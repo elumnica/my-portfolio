@@ -1,19 +1,35 @@
 
 .assembly{
-  padding-top: 20em;
+  padding-top: 5em;
+  padding-left: 2em;
   text-align: center;
 }
 
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-style: normal;
+    color: #fff;
+    padding-left: 5em;
+    margin-top: 5em;
+    align-self: flex-start;
+}
 
 .problem{
     text-align: center;
-    padding-top: 15em;
+    padding-top: 5em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .statement{
     font-size: 18px;
     line-height: 32px;
     color: #fff;
     font-family: "Recoleta", Recoleta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 700px;
 }
 
 .title{
@@ -26,7 +42,7 @@
 }
 
 .three-model{
-    padding-top: 10em;
+    padding-top: 5em;
 }
 
 .work-caption{
@@ -55,7 +71,6 @@
     flex-direction: row;
     font-style: normal;
     color: #fff;
-    padding-left: 5em;
     margin-top: 5em;
 }
 
