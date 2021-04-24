@@ -14,123 +14,143 @@ function Manifold() {
                     </div>
                 </section>
                 <div className='assembly'>
-                        <img src={require('../img/jet-assembly-drawing.JPG')}></img>
+                        <img src={require('../img/full-model.png')}></img>
                 </div>
                 <div className='problem'>
                     <h2 className='title'>The Problem</h2>
-                    <p className='statement'>I have always been intrigued by the concept of being able to fly from one place to another thanks 
-                    to the Wright Brothers! My curiosity led me to dive deeper into some of the concepts 
-                    behind jet engines and how they are engineered. The main focus on this project was to not only 
-                    further understand the concept of jet engines but to also deepen my understanding of the 3D modeling program SOLIDWORKS.</p>
+                    <p className='statement'>In tandem with the P300+ line of compressors, there is a lubrication system with ISO 32
+                    grade oil. Within this external system lies one crucial flaw, it is too intricate to work on. There
+                    are too many physical piping connections that hinders certain aspects of maintenance processes.
+                    The design task involves decreasing the amount of piping connections to ideally have one inlet
+                    and one outlet total through each connection to the compressor. A proper solution would be to
+                    modularize the lubrication system to act on one platform were all the connections would be
+                    within a block and the main components would be mounted on the block.</p>
                
-                    <img className='three-model' src={require('../img/jet-assembly-model.JPG')}></img>
+                    <img className='three-model' src={require('../img/aircompressor.png')}></img>
                 </div>
-                <span className='work-caption'>☝️ 3D Model Assembly of an Axial Jet Engine on SOLIDWORKS ☝️ </span>
+                <span className='work-caption'>☝️ Current F.S. Elliott P300+ Air Compressor System  ☝️ </span>
 
                 <div className='problem'>
                     <h2 className='title'>Overview</h2>
-                    <p className='statement'>In retrospect the jet engine, also known as a gas turbine works like so. The blades of a fan spin at high speed and compress or squeeze the air. The compressed air is then sprayed with fuel and an electric spark lights the mixture. The burning gases expand and blast out through the nozzle, at the back of the engine. As the jets of gas shoot backward, the engine and the aircraft are thrust forward.</p>
+                    <p className='statement'>The new design will be prototyped using solidworks technology to conduct computational
+                    fluid flow analysis throughout the lubrication system. This analysis will be crucial in determining
+                    if the design meets the specifications given by the sponsor as it will provide the experimental
+                    justification stating if the design works. After the design is evaluated and further improved, the
+                    system maybe scaled to met the specifications for other air compressors made by FS-Elliott. The modular block design implements the main components of a lubrication oil system
+                    into an hydraulic manifold. The manifold would be made out of an 6061-T6511 Aluminum
+                    extrusion material with a bare surface finish. Wrought aluminum alloys are worked by extruding,
+                    rolling or forgoing them into specified shapes. These aluminums are graded by a 4 digit number
+                    which identifies their major alloying element. The “6511” number included magnesium and
+                    silicon. The alpha numeric suffixes attached to alloy represent the temper or degree of hardness
+                    and also represent the method by which the hardness was obtained. T6 indicates that the
+                    material was solution heat treated and artificially aged while the T6511 indicates that the alloy
+                    was solution heat treated, stress relieved by stretching and artificially aged to reduce the
+                    possibility of distortion in machined parts. This grade of aluminum is the most versatile of the
+                    heat treated aluminum alloys. It has excellent corrosion resistant, can be easily fabricated, has
+                    good formability and can be easily machined.</p>
                
-                    <img className='four-model' src={require('../img/air-flow.png')}></img>
+                    <img className='four-model' src={require('../img/3D Model.png')}></img>
                 </div>
-                <span className='work-caption'>☝️ How air flows in an engine ☝️ </span>
+                <span className='work-caption'>☝️ Proposed 3D Model Hydraulic Design ☝️ </span>
 
                 <div className='problem'>
-                    <h2 className='title'>Parts: Compressor</h2>
-                        <p className='statement'>The compressor rotates to continuously pressurized gases. Its primary function is to supply air in enough quantity to meet 
-                        <br></br>the requirements of the combustion burners.</p>
+                    <h2 className='title'>Equipment: Gerotor Pump & Thermo Control Valve</h2>
+                        <p className='statement'>A gerotor pump from Parker will be used as the mounted auxiliary oil pump. A gerotor
+pump consists of an internal drive gear and an external driven gear that are always in sliding
+contact. Gerotor pumps are generally used for low pressure applications or hot oil filtration
+systems. The AMOT Model C thermostatic control element.
+Typical applications for this valve is that it controls the oil temperature, temperature mixing and
+water saving applications. The key benefits of this model is that it requires no external power
+source, has small number of parts, low cost installation, and can be operated in any mounting
+position.</p>
                 </div>
                 <div className='row'>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/propeller-model.JPG')}></img>
-                            <span className='work-caption'>☝️ 3D Model of the compressor ☝️ </span>
+                            <img className='four-model' src={require('../img/gerotor-pump.png')}></img>
+                            <span className='work-caption'>☝️ 3D Model of the Gerotor Pump ☝️ </span>
                         </div>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/propeller-drawings.JPG')}></img>
-                            <span className='work-caption'>☝️ Annotation Drawing of the compressor ☝️ </span>
+                            <img className='four-model' src={require('../img/thermostatic-control.png')}></img>
+                            <span className='work-caption'>☝️ 3D Model of the Thermostatic Control Valve ☝️ </span>
                         </div>
                 </div>
                 //Combustion Chamber
                 <div className='problem'>
-                    <h2 className='title'>Parts: Combustion Chamber</h2>
-                        <p className='statement'>Once air enters the front intake and is compressed, the air is forced into combustion chambers where fuel is sprayed into it, and the mixture of air and fuel is ignited. Gases that form expand rapidly and are exhausted through the rear of the combustion chambers.</p>
+                    <h2 className='title'>Equipment: Oil Filter & Relief Valve </h2>
+                        <p className='statement'>A screw on oil filter is a low pressure hydraulic filter that is used as suction filter or to
+filter the return line of the hydraulic circuit. Spin on filters are easy to service due to the
+disposable filter cans which can be replaced by a replacement element completely. The oil filter
+implements both a one inch pressure line and discharge connection. A direct acting pressure relief valve from Sun Hydraulics would be implemented after the
+auxiliary oil pump. Direct-acting relief cartridges are normally closed, pressure-limiting valves
+used to protect hydraulic components from pressure transients.</p>
                 </div>
                 <div className='row'>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/combustion-model.JPG')}></img>
-                            <span className='work-caption'>☝️ 3D Model of the Combustion Chamber ☝️ </span>
+                            <img className='four-model' src={require('../img/oil-filter.png')}></img>
+                            <span className='work-caption'>☝️ 3D Model of the Oil Filter ☝️ </span>
                         </div>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/combustion-drawing.JPG')}></img>
-                            <span className='work-caption'>☝️ Annotation Drawing of the Combustion Chamber ☝️ </span>
+                            <img className='four-model' src={require('../img/relief-valve.png')}></img>
+                            <span className='work-caption'>☝️ 3D Model of the Relief Valve ☝️ </span>
                         </div>
-                </div>
-                //Mid Frame
-                <div className='problem'>
-                    <h2 className='title'>Parts: Mid Frame</h2>
-                        <p className='statement'>A gas turbine engine mid turbine frame having an inner case See application file for complete search history. Supporting at least one bearing and at least three spokes extending radially outwardly to an outer case, the mid turbine frame having an interturbine duct extending through the mid turbine frame, the interturbine duct spaced axially closer to an upstream turbine disc than a bearing. Supporting structure of the mid turbine frame and mounted axially slidingly relative to the bearing supporting structure to substantially isolate the bearing supporting structure from axial loads, for example such as disc loads incurred in the unlikely event a turbine disc shaft shears within the engine.</p>
                 </div>
                 <div className='row'>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/mid-frame-model.JPG')}></img>
-                            <span className='work-caption'>☝️ 3D Model of the Mid Frame System ☝️ </span>
+                            <img className='four-model' src={require('../img/oil-calc.png')}></img>
+                            <span className='work-caption'>☝️ Iso 32 Oil Calculations ☝️ </span>
                         </div>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/mid-frame-drawing.JPG')}></img>
-                            <span className='work-caption'>☝️ Annotation Drawing of the Mid Frame System ☝️ </span>
+                            <img className='four-model' src={require('../img/objectives-table.png')}></img>
+                            <span className='work-caption'>☝️ Current Objectives New Design Implements ☝️ </span>
                         </div>
                 </div>
                 //Turbine
                 <div className='problem'>
-                    <h2 className='title'>Parts: Turbine</h2>
-                        <p className='statement'>The turbines are linked by a shaft to turn the blades in the compressor and to spin the intake fan at the front. This rotation takes some energy from the high-energy flow that is used to drive the fan and the compressor. The gases produced in the combustion chamber move through the turbine and spin its blades.</p>
+                    <h2 className='title'>Flow Simulation</h2>
+                        <p className='statement'>SOLIDWORKS Flow Simulation is an accessible Computational Fluid Dynamics (CFD)
+solution that enables simulation of a liquid or gas to flow through and around designs to
+calculate product performance and capabilities. It uses the Finite Volume Method to calculate
+product performance through what if situations that allow you to perform optimization using
+results. Finite Volume Method (FVM) can be defined as the method for evaluating partial
+differential equations in the form of algebraic equations. These values are calculated as
+discrete places on a meshed geometry.</p>
                 </div>
                 <div className='row'>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/turbine-model.JPG')}></img>
-                            <span className='work-caption'>☝️ 3D Model of the Turbine ☝️ </span>
+                            <img className='four-model' src={require('../img/flow-sim.png')}></img>
+                            <span className='work-caption'>☝️ Flow simulation across the manifold ☝️ </span>
                         </div>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/turbine-drawing.JPG')}></img>
-                            <span className='work-caption'>☝️ Annotation Drawing of the Turbine ☝️ </span>
+                            <img className='four-model' src={require('../img/flow-sim-2.png')}></img>
+                            <span className='work-caption'>☝️ Flow simulation across the manifold ☝️ </span>
                         </div>
                 </div>
                 //Rear Frame System
                 <div className='problem'>
-                    <h2 className='title'>Parts: Rear Frame System</h2>
-                        <p className='statement'>A turbine rear frame for a gas turbine engine comprises a plurality of struts disposed between an outer ring and an inner ring. The struts can be mounted adjacent to one or more mount surfaces defined within the outer ring. The mount surface can comprise a recess in the outer ring having a maximum radial distance upstream of engine mounts inserted therein. The struts can further comprise a pitch angle offset from a centerline  of the mount surface and a tangentially curved trailing edge at a tip to improve aerodynamic performance of the turbine rear frame.</p>
+                    <h2 className='title'>Conclusion/Results</h2>
+                        <p className='statement'>A proper solution would be to
+                            modularize the lubrication system to act on one platform were all the connections would be
+                            within a block and the main components would be mounted on the block. Limitations of design included the location of the main shaft driven pump and the shaft
+                            that is on top of the reservoir. The main shaft driven pump and auxiliary oil pump work in
+                            succession to regulate the 18 gallons per minute required flow rate of the lubrication system.
+                            Some aspects of design were inevitable when working with hydraulic hose. It was needed to
+                            provide a functional working design. This design assures the customer efficient reliability in
+                            terms of service. With a cost savings of about 20% and efficient reliability, the Modular
+                            Box with External Heat Exchanger is the design that is recommended. The company is now undergoing
+                            building a prototype and setting up for testing. If you would like to see the full technical report,
+                            please click on this link <a style={{color: 'lightblue'}}href='https://www.dropbox.com/s/lke34iu45jvdy6e/Elvis%20Hydraulic%20Manifold%20Portfolio.pdf?dl=0'>here</a> to read more about this project.</p>
                 </div>
                 <div className='row'>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/rear-frame-model.JPG')}></img>
-                            <span className='work-caption'>☝️ 3D Model of the Rear Frame ☝️ </span>
+                            <img className='four-model' src={require('../img/costs.png')}></img>
+                            <span className='work-caption'>☝️ Total Costs of preposed Hydraulic Design ☝️ </span>
                         </div>
                         <div className='column'>
-                            <img className='four-model' src={require('../img/rear-frame-drawing.JPG')}></img>
-                            <span className='work-caption'>☝️ Annotation Drawing of the Rear Frame ☝️ </span>
+                            <img className='four-model' src={require('../img/specs.png')}></img>
+                            <span className='work-caption'>☝️ Calculations of fluid flow ☝️ </span>
                         </div>
                 </div>
-                //Exhaust Nozzle
-                <div className='problem'>
-                    <h2 className='title'>Parts: Exhaust Nozzle</h2>
-                        <p className='statement'>The nozzle is the end module of the engine which accelerates the flow of exhaust gases out of the engine. As hot air from the engine core mixes with cooler air blowing through the engine fan, the shaped edges serve to smooth the mixing, which reduces turbulence that creates noise.</p>
-                </div>
-                <div className='row'>
-                        <div className='column'>
-                            <img className='four-model' src={require('../img/exhaust.JPG')}></img>
-                            <span className='work-caption'>☝️ 3D Model of the Exhaust Nozzle ☝️ </span>
-                        </div>
-                        <div className='column'>
-                            <img className='four-model' src={require('../img/exhuast-drawing.JPG')}></img>
-                            <span className='work-caption'>☝️ Annotation Drawing of the Exhaust Nozzle ☝️ </span>
-                        </div>
-                </div>
-                <div className='problem'>
-                    <h2 className='title'>Improvement/Analysis</h2>
-                    <p className='statement'>The next step I would take in progressing this project is to perform a flow and thermal simulation on the air flow 
-                    and combustion processes that the jet engine take to verify design functionality. After confirming that 
-                    both processes confirm design functionality, the next step would be to build a prototype for testing.</p>
-               </div>
+                
                 <div className='footer'>
                     <Footer />
                 </div>
