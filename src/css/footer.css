@@ -1,0 +1,9 @@
+footer {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-top: 2em;
+}

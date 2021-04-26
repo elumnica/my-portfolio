@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img-container {
+    max-width: 400px;
+}
+
+.about-img-container img {
+    max-width: 100%;
+    border-radius: 85px;
+}
+
+.about-text-container {
+    max-width: 800px;
+}
+
+.about-text-container .para-text {
+    margin: 1em 0;
+}
+
+@media (max-width: 1280px) {
+    .about-container {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .about-container div {
+        margin: 1em 0;
+    }
+}

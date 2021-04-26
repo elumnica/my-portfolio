@@ -1,0 +1,48 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-img-container {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-img-container img {
+    width: 100%;
+    max-height: 400px;
+}
+
+.contact-text-container {
+    max-width: 500px;
+}
+
+.contact-email {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0.5em;
+    transition: all 0.5s;
+}
+
+.contact-email:hover {
+    transform: scale(1.035);
+}
+
+@media (max-width: 980px) {
+    .contact-container {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .contact-container div {
+        margin: 1em 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .contact-img-container {
+        width: 300px;
+    }
+}

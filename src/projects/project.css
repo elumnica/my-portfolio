@@ -1,0 +1,126 @@
+.project-container {
+    text-align: center;
+}
+
+.project-heading-container,
+.project-single-img,
+.project-text-container,
+.project-img-flex {
+    margin: 5em auto;
+}
+
+.project-heading-container {
+    margin-bottom: 5em;
+}
+
+.project-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 0.5em;
+}
+
+.project-heading-container p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #9ca6af;
+}
+
+.project-sub-heading {
+    font-size: 2.45rem;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 0.5em;
+}
+
+.project-single-img {
+    width: 500px;
+}
+
+.project-single-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.project-text-container {
+    max-width: 900px;
+}
+
+.project-img-pointing-text {
+    font-size: 0.85rem;
+    margin-top: 1em;
+    line-height: 150%;
+}
+
+.project-img-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-img-flex div {
+    width: 450px;
+    margin: 2em;
+}
+
+.project-img-flex img {
+    width: 100%;
+    height: 400px;
+}
+
+.project-container a {
+    color: var(--hoverColor);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+    .project-heading {
+        font-size: 2.75rem;
+    }
+    .project-heading-container p {
+        font-size: 1.15rem;
+    }
+
+    .project-sub-heading {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .project-heading {
+        font-size: 2.45rem;
+    }
+    .project-heading-container p {
+        font-size: 1rem;
+    }
+
+    .project-sub-heading {
+        font-size: 1.75rem;
+    }
+
+    .project-single-img,
+    .project-img-flex div {
+        width: 300px;
+    }
+
+    .project-single-img img,
+    .project-img-flex img {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 420px) {
+    .project-single-img,
+    .project-img-flex div {
+        width: 275px;
+    }
+
+    .project-single-img img,
+    .project-img-flex img {
+        width: 100%;
+        height: 200px;
+    }
+}
